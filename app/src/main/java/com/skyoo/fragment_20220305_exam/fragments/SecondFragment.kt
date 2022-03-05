@@ -9,7 +9,8 @@ import androidx.fragment.app.Fragment
 import com.skyoo.fragment_20220305_exam.R
 import kotlinx.android.synthetic.main.fragment_second.*
 
-class SecondFragment : Fragment {
+class SecondFragment : Fragment() {
+
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
@@ -20,8 +21,9 @@ class SecondFragment : Fragment {
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
+
         btnToastInFragment.setOnClickListener {
-            Toast.makeText(requireContext(), "토스트 띄우기", Toast.LENGTH_LONG).show()
+            Toast.makeText(requireContext(), "토스트 띄우기", Toast.LENGTH_SHORT).show()
 
         }
     }
