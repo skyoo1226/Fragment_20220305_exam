@@ -21,19 +21,19 @@
                 android:tag="firstFrag"
                 android:layout_width="match_parent"
                 android:layout_height="250dp"
-                class="com.neppplus.fragment_20220305.fragments.FirstFragment"/>
+                class="com.skyoo.fragment_20220305_exam.fragments.FirstFragment"/>
 
             <fragment
                 android:tag="두번째프래그먼트"
                 android:layout_width="match_parent"
                 android:layout_height="250dp"
-                class="com.neppplus.fragment_20220305.fragments.SecondFragment" />
+                class="com.skyoo.fragment_20220305_exam.fragments.SecondFragment" />
 
             <fragment
                 android:tag="첫프래그먼트"
                 android:layout_width="match_parent"
                 android:layout_height="300dp"
-                class="com.neppplus.fragment_20220305.fragments.FirstFragment" />
+                class="com.skyoo.fragment_20220305_exam.fragments.FirstFragment" />
 
 
         </LinearLayout>
