@@ -35,7 +35,6 @@
                 android:layout_height="300dp"
                 class="com.skyoo.fragment_20220305_exam.fragments.FirstFragment" />
 
-
         </LinearLayout>
 
     </ScrollView>
